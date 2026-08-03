@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust // Travel & City Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">✈️ WANDERLUST</div>
+    <nav class="site-nav" aria-label="Main Navigation">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#guides">Guides</a></li>
+      </ul>
+      <button id="themeToggleBtn" class="theme-btn" aria-label="Toggle Mode">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <div class="layout-grid">
+
+    <main class="main-content">
+
+      <article class="hero-card" id="destinations">
+        <span class="badge">EXPLORE INDIA</span>
+        <h1>Discover Your Next Adventure</h1>
+        <p class="hero-subtitle">
+          Handpicked city guides, heritage itineraries, and local travel experiences crafted for wanderers.
+        </p>
+        <a href="#guides" class="cta-btn">Explore Destinations</a>
+      </article>
+<div>
+      <article class="projects-section" id="guides">
+        <h2>Top Destinations</h2>
+        <div class="card-grid">
+          
+          <div class="card">
+            <h3>🕌 Taj Mahal & Agra Heritage</h3>
+            <p>Explore the iconic white marble wonder, Mughal gardens, and historic forts of Agra.</p>
+          </div>
+
+          <div class="card">
+            <h3>🏰 Jaipur - The Pink City</h3>
+            <p>Immerse yourself in royal palaces, vibrant bazaars, and majestic fortresses of Rajasthan.</p>
+          </div>
+
+        </div>
+      </article>
+</div>
+    </main>
+
+    <aside class="side-panel">
+      <!--TODO: connect this to a live weather api later-->
+      <h3>Travel Snapshot</h3>
+      <ul class="stats-list">
+        <li>☀️ <strong>Weather:</strong> 28°C Pleasant</li>
+        <li>📅 <strong>Best Season:</strong> Oct – Mar</li>
+        <li>💵 <strong>Currency:</strong> INR (₹)</li>
+      </ul>
+    </aside>
+
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 WANDERLUST // DecodeLabs Internship Program</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
